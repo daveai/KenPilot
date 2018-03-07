@@ -50,6 +50,10 @@ import Alerts from '../../views/Notifications/Alerts/';
 import Badges from '../../views/Notifications/Badges/';
 import Modals from '../../views/Notifications/Modals/';
 
+//invoice
+
+import Invoice from '../../views/Invoice/Invoice'
+
 class Full extends Component {
   render() {
     return (
@@ -93,6 +97,7 @@ class Full extends Component {
                 <Route path="/notifications/modals" name="Modals" component={Modals}/>
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
                 <Route path="/charts" name="Charts" component={Charts}/>
+                <Route path="/invoice" name="Invoice" component={Invoice}/>
                 <Redirect from="/" to="/dashboard"/>
               </Switch>
             </Container>

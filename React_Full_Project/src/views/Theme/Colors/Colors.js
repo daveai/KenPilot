@@ -6,7 +6,7 @@ class Colors extends Component {
       <div className="animated fadeIn">
         <div className="card">
           <div className="card-header">
-            <i className="icon-drop"></i> Theme colors
+            <i className="icon-drop"></i> Theme colorskkkkkkkkk
           </div>
           <div className="card-body">
             <div className="row">
